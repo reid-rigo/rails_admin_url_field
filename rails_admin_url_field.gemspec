@@ -4,14 +4,12 @@ $:.push File.expand_path("../lib", __FILE__)
 Gem::Specification.new do |s|
   s.name        = "rails_admin_url_field"
   s.version     = '0.1.0'
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsAdminUrlField."
-  s.description = "TODO: Description of RailsAdminUrlField."
+  s.authors     = ["Reid M. Lynch"]
+  s.email       = ["reid.lynch@gmail.com"]
+  s.summary     = "Url field type for Rails Admin"
   s.license     = "MIT"
 
-  s.files = Dir["lib/**/*", "MIT-LICENSE", "README.rdoc"]
+  s.files = Dir["lib/**/*", "MIT-LICENSE", "README.md"]
 
   s.add_dependency "rails", "~> 4.1.6"
 end
